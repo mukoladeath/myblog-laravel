@@ -42,6 +42,9 @@
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
           <!-- Left Side Of Navbar -->
           <ul class="nav navbar-nav">
+            <li>
+              <a href="{{route('admin.index')}}">Dashboard</a>
+            </li>
             <li class="dropdown">
               <a href="#" data-toggle="dropdown" role="button" aria-expanded="false">myBlog</a>
               <ul class="dropdown-menu" role="menu">
