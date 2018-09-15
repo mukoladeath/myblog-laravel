@@ -45,11 +45,19 @@
             <li>
               <a href="{{route('admin.index')}}">Dashboard</a>
             </li>
+
             <li class="dropdown">
               <a href="#" data-toggle="dropdown" role="button" aria-expanded="false">myBlog</a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="{{route('admin.category.index')}}">Categories</a></li>
                 <li><a href="{{route('admin.article.index')}}">Articles</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" data-toggle="dropdown" role="button" aria-expanded="false">User managment</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="{{route('admin.user_managment.user.index')}}">Users</a></li>
               </ul>
             </li>
           </ul>
